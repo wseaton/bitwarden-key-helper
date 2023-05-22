@@ -4,7 +4,7 @@ from typing import List
 
 from serde.json import from_json
 
-from bw_types import PasswordEntry
+from bitwarden_key_helper.bw_types import PasswordEntry
 
 
 def remove_duplicate_sequences(byte_string, separator=b"\x1b[37D\x1b[37C\x1b[2K\x1b[G"):
