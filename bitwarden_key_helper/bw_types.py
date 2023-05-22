@@ -26,7 +26,7 @@ class Login:
     username: str
     password: str
     totp: Optional[str]
-    password_revision_date: datetime
+    password_revision_date: Optional[datetime]
 
 
 @serde(serializer=serializer, deserializer=deserializer, rename_all="camelcase")
