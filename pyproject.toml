@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "bitwarden-key-helper"
+version = "0.1.0"
+description = ""
+authors = ["Will Eaton <me@wseaton.com>"]
+readme = "README.md"
+packages = [{ include = "bitwarden_key_helper" }]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0.0"
+pyserde = "^0.10.6"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.3.0"
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 99
