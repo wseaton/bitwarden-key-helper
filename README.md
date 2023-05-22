@@ -1,0 +1,1 @@
+# bitwarden-key-helper
